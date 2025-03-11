@@ -5,7 +5,9 @@ I am building this repo to demonstrate my understanding of Python as a Technical
 
 The files in this repo will demonstrate my understanding of fundamental Python concepts such as:
 
-Variables, Data Types, and Control Flow (if/else)
+Variables - variables.py
+Data Types - inventory_system.py
+Control Flow (if/else) - 
 Loops, Classes, and Functions
 Lists, Dictionaries, and Python Packages
 Object Oriented Programming, Error Handling, Debugging
