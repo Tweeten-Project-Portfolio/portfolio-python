@@ -19,9 +19,9 @@ while total<count:
 
   try:
     num = (value)
-    numbers.append({
+    numbers.append(
       num
-    })
+    )
     total+=1
 
   except ValueError:
