@@ -7,6 +7,12 @@ def get_int_input(prompt):
     except ValueError:
       print("Unexpected input. Please input a whole number and try again.")
 
+# defining variables for later analysis
+
+positive_sum = []
+negative_sum = []
+zero_sum = []
+
 # Defining a blank array
 numbers = []
 
@@ -27,4 +33,22 @@ while total<count:
   except ValueError:
     print("Unexpected input, try again.")
 
+if not numbers:
+  print("null")
+else:
+  index = 0
+  while index < len(numbers):
+    if(numbers[index]>1):
+      positive_sum.append(numbers[index])
+    elif:
+      negative_sum.append(numbers[index])
+    else:
+      (numbers[index]=0):
+        zero_sum.append(numbers[index])
+    index+=1
+
+print(positive_sum)
+print(negative_sum)
+    
 print(numbers)
+  
