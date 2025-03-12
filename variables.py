@@ -1,6 +1,6 @@
 # Demonstrating my knowledge of how variables work and basic variable functions
 
-# Defining some helper functions to handle input better
+# Defining helper functions to handle unknown input 
 
 def get_float_input(prompt):
   while True:
@@ -28,4 +28,5 @@ discounted_price = total_before_tax - (total_before_tax*(discount/100))
 tax_amount = discounted_price*(tax_rate/100)
 final_price = discounted_price+tax_amount
 
+# Printing final calculations w/ .2f for 2 decimal places
 print(f"Your total is {final_price:.2f}")
